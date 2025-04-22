@@ -1,16 +1,32 @@
-# flutter_application_1
+# QR Code Generator
 
-A new Flutter project.
+A simple and elegant Flutter web app that allows users to generate and download custom QR codes.
 
-## Getting Started
+![Screenshot](qrlogin.png)
+![Screenshot](qrgenerer.png)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Enter custom text or URL
+- Generate QR code instantly
+- Download QR code as an image
+- Clean and responsive design
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+- Flutter (Web)
+- Dart
+- `qr_flutter` package
+
+## 📸 Preview
+
+![Screenshot]( preview.png)
+
+## 🧪 Getting Started
+
+```bash
+git clone https://github.com/emnamerdessi50/qr-code-generator.git
+cd qr-code-generator
+flutter pub get
+flutter run -d chrome
